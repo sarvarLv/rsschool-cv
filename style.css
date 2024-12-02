@@ -1,0 +1,233 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(250, 250, 7);
+    color: #333;
+    padding: 40px;
+}
+
+/* CV Container */
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.cv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #f4f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-info {
+    max-width: 500px;
+    color: #3a3a3a;
+}
+
+.header-info h1 {
+    font-size: 2.4em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header-info .title {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.header-info p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* About Section */
+.cv-about {
+    margin-bottom: 30px;
+}
+
+.cv-about h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 5px;
+}
+
+.cv-about p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.cv-skills {
+    margin-bottom: 30px;
+}
+
+.cv-skills h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 5px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Experience Section */
+.cv-experience {
+    margin-bottom: 30px;
+}
+
+.cv-experience h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.6em;
+    color: #3a3a3a;
+}
+
+.job .job-details {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.job li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+.cv-education {
+    margin-bottom: 30px;
+}
+
+.cv-education h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 5px;
+}
+
+.cv-education p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.cv-projects {
+    margin: 30px 0px;
+  }
+  .projects_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0 60px;
+    padding: 0;
+    list-style: none;
+  }
+  .projects_item {
+    list-style: none;
+  }
+  .projects_item a {
+    text-decoration: none;
+  }
+  .projects_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 400;
+    color: black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 60px 20px 60px;
+    color: black;
+    background-color: white;
+  }
+  
+  .footer_github {
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  .footer_github::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(./img/github-logo.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none;
+  }
